@@ -82,20 +82,72 @@
 // 782 => 9
 // 918 => 17
 
-Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 // [100 , 999]
 // "&&" - "И": яблоки И апельсины 
-if (number >= 100 && number <= 999)
+// if (number >= 100 && number <= 999)
+// {
+//     Console.WriteLine("Число трехзначное :)");
+//     // 167 => 1 + 7
+//     int thirdDigit = number % 10; // 167 % 10 = 7
+//     int firstDigit = number / 100; // 167 / 100 = 1
+//     int result = firstDigit + thirdDigit;
+//     Console.WriteLine("Сумма 1 и 3 цифры от числа " + number + " = " + result);
+// }   
+// else
+// {
+//     Console.WriteLine("Число НЕ трехзначное :)");
+// }
+
+// int firstNumber = 5;
+// int secondNumber = 6;
+
+// if (firstNumber > secondNumber)
+// {
+//     Console.WriteLine("Число " + firstNumber + " больше числа " + secondNumber);
+// }
+// else if (firstNumber < secondNumber)
+// {
+//     Console.WriteLine("Число " + firstNumber + " меньше числа " + secondNumber);
+// }
+// else
+// {
+//     Console.WriteLine($"Числа `{firstNumber}` и `{secondNumber}` равны");
+// }
+// int a = 9;
+// int b = 8;
+// int c = 7;
+
+// int max = a;
+// if (b > max)
+// {
+//     max = b;
+// }
+// if (c > max)
+// {
+//     max = c;
+// }
+// Console.WriteLine(max);
+
+
+// int number = 5;
+// if (number % 2 == 0)
+//     {
+//       Console.WriteLine("четное");
+//     }
+//     else
+//     {
+//       Console.WriteLine("нечетное");
+//     }
+
+int number = 8;
+int index = 1;
+while (index <= number)
 {
-    Console.WriteLine("Число трехзначное :)");
-    // 167 => 1 + 7
-    int thirdDigit = number % 10; // 167 % 10 = 7
-    int firstDigit = number / 100; // 167 / 100 = 1
-    int result = firstDigit + thirdDigit;
-    Console.WriteLine("Сумма 1 и 3 цифры от числа " + number + " = " + result);
-}   
-else
-{
-    Console.WriteLine("Число НЕ трехзначное :)");
+    if (index % 2 == 0)
+    {
+        Console.Write(index + " ");
+    }
+    index++;
 }

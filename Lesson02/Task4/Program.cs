@@ -14,7 +14,7 @@ while (i < N)
 Console.WriteLine(max);
 
 max = array[0];
-for(int j = 0; j < N; j++)
+for (int j = 0; j < N; j++)
 {
     if (array[j] > max)
     {
@@ -24,7 +24,7 @@ for(int j = 0; j < N; j++)
 Console.WriteLine(max);
 
 max = array[0];
-foreach(int e in array)
+foreach (int e in array)
 {
     if (e > max)
     {

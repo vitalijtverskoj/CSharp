@@ -1,7 +1,4 @@
-﻿// Console.WriteLine("Hello, World!");
-
-
-int value = 100;
+﻿int value = 100;
 Console.WriteLine(value);
 
 double d = 5.55;

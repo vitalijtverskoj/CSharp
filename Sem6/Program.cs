@@ -52,25 +52,25 @@
 // “hello” => 2
 // “world” => 1
 
-int GetVovelsCount(string str)
-{
-    string vovels = "aoueyi"; // Гласные буквы в англ. алфавите
-    int countVovels = 0; // Количество гласных 
-    foreach (char symbol in str) // Берем каждый символ введенной стр
-    {
-        foreach (char vovel in vovels) // Получаем гласную букву
-        {
-            if (symbol == vovel) // Нашли гласную букву
-            {
-                countVovels++;
-            }
-        }
-    }
-    return countVovels;
-}
+// int GetVovelsCount(string str)
+// {
+//     string vovels = "aoueyi"; // Гласные буквы в англ. алфавите
+//     int countVovels = 0; // Количество гласных 
+//     foreach (char symbol in str) // Берем каждый символ введенной стр
+//     {
+//         foreach (char vovel in vovels) // Получаем гласную букву
+//         {
+//             if (symbol == vovel) // Нашли гласную букву
+//             {
+//                 countVovels++;
+//             }
+//         }
+//     }
+//     return countVovels;
+// }
 
-Console.Write("Введите строку: ");
-string inputString = Console.ReadLine();
-inputString = inputString.ToLower(); // перевели строчку в нижний регист
-int countVovels = GetVovelsCount(inputString);
-Console.WriteLine($"В строчке: {inputString}(в нижнем регистре) : {countVovels} гласных");
+// Console.Write("Введите строку: ");
+// string inputString = Console.ReadLine();
+// inputString = inputString.ToLower(); // перевели строчку в нижний регист
+// int countVovels = GetVovelsCount(inputString);
+// Console.WriteLine($"В строчке: {inputString}(в нижнем регистре) : {countVovels} гласных");

@@ -74,3 +74,12 @@
 // inputString = inputString.ToLower(); // перевели строчку в нижний регист
 // int countVovels = GetVovelsCount(inputString);
 // Console.WriteLine($"В строчке: {inputString}(в нижнем регистре) : {countVovels} гласных");
+
+char[] charArray = new char[10];
+Random rnd = new Random();
+for (int i = 0; i < charArray.Length; i++)
+{
+    // "A" = 65, "Z" = 90
+    charArray[i] = (char)rnd.Next('a','z' + 1);
+}
+Console.WriteLine($"Array: [{string.Join("; ", charArray)}]");

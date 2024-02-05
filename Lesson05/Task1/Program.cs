@@ -1,11 +1,14 @@
 ﻿int Fact(int n)
 {
-    if (n == 1 || n == 0)
+    if (n == 0)
     {
+        Console.WriteLine($"Stop requrson:n={n}");
         return 1;
     }
     Console.WriteLine(n);
-    return n * Fact(n - 1);
+    int fact = Fact(n - 1);
+    Console.WriteLine($"Возврат:n={n}, fact={fact}");
+    return n * fact;
 
 }
 

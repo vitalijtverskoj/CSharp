@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5V2XEtdJSLjTkRnNc2jRYyjnDc6UOdmQdufw1G7Hg2kQa4S5t7SwjTi1y5Ji0s88PP6EUUz1MoO5ICkkAqd6vg==",
+  "dgSpecHash": "6QvB2qccL1l1YGSUwsHj/tTncfSa+g/JMNZCnlJzAS8cT706faJWsP/POEMaJMHTqmrWU5QWj1qw7K6yDgpZVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj",
+  "projectFilePath": "c:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",

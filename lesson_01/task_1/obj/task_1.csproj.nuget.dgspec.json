@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj": {}
+    "c:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj": {
+    "c:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj",
+        "projectUniqueName": "c:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj",
         "projectName": "task_1",
-        "projectPath": "C:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj",
+        "projectPath": "c:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\task_1.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\obj\\",
+        "outputPath": "c:\\Users\\Victor\\project\\CSharp\\lesson_01\\task_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config"
